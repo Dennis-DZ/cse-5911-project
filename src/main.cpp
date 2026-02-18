@@ -1,3 +1,5 @@
+#ifndef PIO_UNIT_TESTING
+
 #include "hal/ArduinoHAL.h"
 #include "MedicalDeviceController.h"
 
@@ -18,3 +20,5 @@ void loop() {
     // Small delay to avoid overwhelming the display
     hal.delay(100);
 }
+
+#endif

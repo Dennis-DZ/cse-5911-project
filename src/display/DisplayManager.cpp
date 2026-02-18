@@ -1,4 +1,5 @@
 #include "DisplayManager.h"
+#include <stdio.h>
 
 DisplayManager::DisplayManager(IHAL* hal) : hal(hal) {
 }
